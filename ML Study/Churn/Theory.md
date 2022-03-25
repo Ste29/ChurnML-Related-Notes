@@ -13,7 +13,7 @@
 - https://medium.com/adobetech/gaining-a-deeper-understanding-of-churn-using-data-science-workspace-18a2190e0cf3
 
 ## Understanding Churn
-**L'articolo non si riferisce a Sisal**
+**L'articolo non si riferisce a Sis**
 
 Highly competitive markets (i.e. gaming, hotel, casino chains operate in) needs to understand customers, their behavior (CLC) and the features which lead to churn.
 The goal was to understand which customer were highly unlikely to make a booking over a six month period, then sending personalized offers to those customers.
