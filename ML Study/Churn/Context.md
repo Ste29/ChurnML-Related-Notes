@@ -1,0 +1,6 @@
+- si considerano solo i clienti attivi e i churned da meno di 1 anno, i vip non si considerano
+- No regole ricorsive (che si basano sullo stato di ieri) altrimenti l'errore rischia di esplodere
+- cliente inattivo da +90gg
+- churn factor = 3, giorni di inattività/periodo di gioco del cliente
+- Non si tiene conto della stagionalità, un utente viene assegnato ad una categoria di prodotto se almeno il 75% delle sue giocate negli ultimi 90gg rolling sono su quel prodotto. Questo però se un cliente è multi potrebbe diventare monoprodotto all'improvviso un easy workaround è guardare gli ultimi 90gg rolling dall'ultima giocata anziché da oggi
+- churn factor = quante giocate ci saremmo aspettati nel periodo in cui è churn se invece avesse giocato? puoi basarti sull'intera storia dei clienti oppure 
