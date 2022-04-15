@@ -9,6 +9,12 @@
 * [Regression](#clustering)
 * [Clustering](#clustering)
 
+![[metrics.png]]
+*List of metrics from sklearn*
+
+
+Lift???
+
 
 ## Classification
 ### Accuracy
@@ -37,8 +43,12 @@ When to use it:
 
 i.e. in email detection it is really important to not classify a real email as spam (false positive! true positives are spam)
 
+### False Positive Rate
+It is the probability of false alarm.
+$$FPR = \frac{FP}{N} = \frac{FP}{FP+TN} = 1 - specificity = 1 - \frac{TN}{N}$$
+
 ### Recall
-Also called sensitivity or true positive rate.
+Also called sensitivity or true positive rate. It is the probability of detection.
 Allows you to measure how many positives you spot among **all** the existing positives
 $$
 Recall = \frac{TP}{TP + FN} = \frac{TP}{P}
@@ -50,9 +60,18 @@ i.e. if you miss a fraudolent transaction (Actual positive --> False negative) t
 
 The opposite of recall is called **specificity** or true negative rate.
 
+#### ROC
+![[Roc_curve.svg.png]]
+Receiver operating characteristic, can be used to illustrate the diaggnostic ability of a binary classifier.
+Area Under Curve (AUC) come from curve True Positive Rate (recall)/ False Positive Rate (fall-out)
+AUC can take values between 0 and 1, where for a random classifier it takes the value 0.5 . The larger the value, the better.
+The area between the ROC curve and the no-discrimination line multiplied by two is called the _Gini coefficient_. It should not be confused with the [measure of statistical dispersion also called Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient "Gini coefficient").
+
+
 #### Precision-Recall Curve
 ![[Precision-Recall-curve-vs-ROC.png]]
 This curve is the more informative on imbalanced data, it is better than ROC.
+It can take values between 0 and 1, for a random classifier it takes the value equal to the imbalance of the minority class (in this case 0.1-0.2). The larger the better.
 
 ### F1 Score
 Also called harmonic mean of precision and recall.

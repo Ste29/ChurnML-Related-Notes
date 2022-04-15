@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "d3b79ce9618143e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "823942a0f040b53b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Architecture Notes/Hadoop.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "695d994941acfcb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7de87112d8afd20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c397aeb1f8c82ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c872ce4844198b11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 166
+  },
+  "right": {
+    "id": "150d63ca71906969",
+    "type": "split",
+    "children": [
+      {
+        "id": "7823513d6f6d4121",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46d069419a0cc870",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Architecture Notes/Hadoop.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "823942a0f040b53b",
+  "lastOpenFiles": [
+    "Architecture Notes/Hadoop.md",
+    "Architecture Notes/Storage.md",
+    "Churn/Theory.md",
+    "ML Theory/Metrics.md",
+    "Churn/Context.md",
+    "ML Theory/Regression.md",
+    "Architecture Notes/Apache Kafka.md",
+    "ML Theory/Decision Trees.md",
+    "ML Theory/Correlation.md",
+    "data-warehouse.md"
+  ]
+}
